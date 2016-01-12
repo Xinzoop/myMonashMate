@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.monash.mymonashmate"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="edu.monash.mymonashmate.client.MonashApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/monash"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.monash.mymonashmate.activities.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity android:name="edu.monash.mymonashmate.activities.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.monash.mymonashmate.activities.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName="edu.monash.mymonashmate.activities.MainActivity" >
+        </activity>
+        <activity
+            android:name="edu.monash.mymonashmate.activities.PrivacyActivity"
+            android:label="@string/title_activity_privacy"
+            android:parentActivityName="edu.monash.mymonashmate.activities.MainActivity" >
+        </activity>
+        <activity
+            android:name="edu.monash.mymonashmate.activities.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="edu.monash.mymonashmate.activities.FindMatesActivity"
+            android:label="@string/title_activity_find_mates"
+            android:parentActivityName="edu.monash.mymonashmate.activities.MainActivity" >
+        </activity>
+        <activity
+            android:name="edu.monash.mymonashmate.activities.FirstSignupActivity"
+            android:label="@string/title_activity_first_signup" >
+        </activity>
+        <activity
+            android:name="edu.monash.mymonashmate.activities.DetailActivity"
+            android:label="@string/title_activity_detail" 
+            android:parentActivityName="edu.monash.mymonashmate.activities.FindMatesActivity" >
+        </activity>
+    </application>
+</manifest>

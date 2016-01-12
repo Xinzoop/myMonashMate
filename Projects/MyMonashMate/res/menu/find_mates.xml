@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.monash.mymonashmate.FindMatesActivity" >
+    <item android:id="@+id/menu_search" android:title="Search" android:showAsAction="ifRoom"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_action_search"></item>
+
+</menu>

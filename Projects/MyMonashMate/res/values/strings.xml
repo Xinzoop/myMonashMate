@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyMonashMate</string>
+    <string name="baseURL">http://10.0.2.2:8080</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_privacy">Privacy</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_findmates">Find Mates</string>
+    <string name="title_activity_main">Monash Mates</string>
+    <string name="txtEdit">Edit</string>
+    <string name="txtDone">Done</string>
+    <string name="title_activity_find_mates">Find Mates</string>
+    <string name="menu_logout">Log out</string>
+    <string name="title_activity_first_signup">Initizalize Profile</string>
+    <string name="menu_next">Next</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="addUnit">Add unit</string>
+    <string name="removeUnit">Remove unit</string>
+    <string name="second_level">search from current results</string>
+    <string name="criteria">Criteria:</string>
+    <string name="remove">Remove</string>
+    <string name="same_as_me">same as me</string>
+    <string name="match_condition">equals or contains:</string>
+    <string name="addValue">+</string>
+    <string name="defaultLatitude">-37.876470</string>
+    <string name="defaultLongitude">145.044078</string>
+    <string name="removeValue">-</string>
+
+</resources>

@@ -1,0 +1,11 @@
+account: zip@monash.edu/123456
+profile: 'Zhao','Peng','Petter','2402','FIT5046,FIT5057,FIT5123,FIT5130',-37.876470,145.044078, 'Chinese','Chinese','English','Caulfield','Rice','Iron Man','C#','fit5046','student','programmer';
+
+account: jack.jones@monash.edu/abc12345
+profile: 'Jones','Jack','Jack','2402','FIT5046', -37.876827,145.043916,
+
+account: b.gate@monash.edu/123456
+profile: 'Gates','Bell','Bell','2402',''
+
+account: steve.jobs@monash.edu/abcdefg
+profile: 'Jobs','Steve','Steve','3342','FIT5046,FIT3124',-37.876039,145.042071,'American','English','Spanish','Clayton','Vegetable','Silicon Pirate','C','FIT5046'

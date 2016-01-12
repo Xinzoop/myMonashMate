@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    >
+
+    <TextView
+        android:id="@+id/txtValue"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        />
+    
+    <Spinner
+        android:id="@+id/spinMatchValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_weight="10"
+       	/>
+
+    <Button
+        android:id="@+id/btnRemoveValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/removeValue" />
+
+</TableRow>

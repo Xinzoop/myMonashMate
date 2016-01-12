@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.monash.mymonashmate.PrivacyActivity" >
+    <item android:id="@+id/menu_privacy_update" android:title="Update"
+        android:showAsAction="ifRoom" android:icon="@drawable/ic_action_save"></item>
+
+</menu>

@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="edu.monash.mymonashmate.activities.PrivacyActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#4099FF" >
+
+    <Switch
+        android:id="@+id/swNationality"
+        style="@style/PrivacySwitchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nationality" />
+
+    <Switch
+        android:id="@+id/swNativeLang"
+        style="@style/PrivacySwitchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nativelang" />
+
+    <Switch
+        android:id="@+id/swSecondLang"
+        style="@style/PrivacySwitchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/secondLang" />
+
+    <Switch
+        android:id="@+id/swSuburb"
+        style="@style/PrivacySwitchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/suburb" />
+
+    <Switch
+        android:id="@+id/swFavFood"
+        style="@style/PrivacySwitchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favFood" />
+
+    <Switch
+        android:id="@+id/swFavMovie"
+        style="@style/PrivacySwitchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favMovie" />
+
+    <Switch
+        android:id="@+id/swFavUnit"
+        style="@style/PrivacySwitchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favUnit" />
+
+    <Switch
+        android:id="@+id/swFavProgLang"
+        style="@style/PrivacySwitchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favProgLang" />
+
+    <Switch
+        android:id="@+id/swCurJob"
+        style="@style/PrivacySwitchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/curJob" />
+
+    <Switch
+        android:id="@+id/swPreJob"
+        style="@style/PrivacySwitchStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prevJob" />
+
+</LinearLayout>

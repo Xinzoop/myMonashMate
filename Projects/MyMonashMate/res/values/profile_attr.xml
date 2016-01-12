@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nationality">Nationality</string>
+    <string name="nativelang">Native language</string>
+    <string name="secondLang">Second language</string>
+    <string name="suburb">Suburb</string>
+    <string name="favFood">Favorite food</string>
+    <string name="favMovie">Favorite movie</string>
+    <string name="favUnit">Favorite unit</string>
+    <string name="favProgLang">Favorite programme language</string>
+    <string name="curJob">Current job</string>
+    <string name="prevJob">Previous job</string>
+    <string name="surname">Surname</string>
+    <string name="firstName">First name</string>
+    <string name="nickname">Nickname</string>
+    <string name="course">Course</string>
+    <string name="units">Units</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    
+</resources>

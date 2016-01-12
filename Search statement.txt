@@ -1,0 +1,11 @@
+select * from PETTER.PROFILE;
+
+select * from profile a left join privacy b on a.ID=b.USERID;
+
+select id, max(case when attrid is null or attrid != 7 then null else nationality end) col7 from 
+(select * from profile a left join privacy b on a.ID=b.USERID) a group by id;
+
+select id, col7 from 
+(select id, max(case when attrid is null or attrid != 7 then null else nationality end) col7 from 
+(select * from profile a left join privacy b on a.ID=b.USERID) a group by id) a 
+where id in (1008) and upper(col7) in ('AMERICAN');
